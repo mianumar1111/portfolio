@@ -94,16 +94,13 @@ font-family:'Times New Roman', Times, serif ;
 font-weight: bold;
 }
 
-.secondsection{
-    font-size: 20px;
-    max-width: auto;
-    margin: 25px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
 .asection{
+    max-width: auto;
+    margin: auto;
+    height: auto;
+    padding: 20px;
+}
+.Esection{
     max-width: auto;
     margin: auto;
     height: auto;
@@ -127,7 +124,7 @@ main hr{
 
 .rightsection1 img{
     margin-top: 10px;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -175,4 +172,25 @@ main hr{
 .leftsectionmp h3{
     margin: 5px;
     font-size: 20px
+}
+.secondsection{
+    font-size: 25px;
+    max-width: auto;
+    margin: 25px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.leftsectionE{
+    font-size: 25px;
+    max-width: auto;
+    margin: 25px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+#ins-name{
+    font-size:large;
+    font-weight:bold;
+    margin-top: 10px;
 }
