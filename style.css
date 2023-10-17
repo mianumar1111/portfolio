@@ -19,8 +19,8 @@ header{
 }
 
 nav{
-    display: block;
-    justify-content: space-around;
+    display:block;
+    justify-content:flex-start;
     align-items: center;
     height: 50px;
     background-color: rgb(46, 46, 145);;
@@ -81,7 +81,7 @@ nav ul li a:hover{
 }
 
 .leftsection{
-font-size: 30px;
+font-size: 50px;
 font-style: italic;
 }
 .rightsection img{
@@ -95,7 +95,7 @@ font-weight: bold;
 }
 
 .secondsection{
-    font-size: 30px;
+    font-size: 20px;
     max-width: auto;
     margin: 25px;
     height: auto;
@@ -133,8 +133,8 @@ main hr{
 
 #element{
     margin-top: 10px;
-    margin: 0px;
-    font-size: 25px;
+    margin: auto;
+    font-size: 20px;
     font-style: normal;
 }
 #celement{
@@ -166,13 +166,13 @@ main hr{
 
 .leftsectionmp{
     margin: 30px;
-    font-size: 30px
+    font-size: 20px
 }
 .leftsectionmp p{
     margin: 10px;
-    font-size: 30px
+    font-size: 20px
 }
 .leftsectionmp h3{
     margin: 5px;
-    font-size: 30px
+    font-size: 20px
 }
