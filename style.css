@@ -1,0 +1,178 @@
+@media (max-width: 768px) {
+    /* Your CSS styles for smaller screens here */
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7c7cb0;
+    color: white;
+    font-size: 16px
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(46, 46, 145);;
+}
+
+.left{
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: lavender;
+    padding: 5px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.cfirstsection .cleftsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px,0;
+    width: 100%;
+}
+.cfirstsection .crightsection{
+    font-style: italic;
+    margin-top: px;
+    padding: 100px;
+}
+
+.crightsection ul a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.crightsection ul a:hover{
+    color: lavender;
+    padding: 10px;
+}
+
+.firstsection div{
+    margin: 50px;
+    width: 30%;
+}
+
+.leftsection{
+font-size: 30px;
+font-style: italic;
+}
+.rightsection img{
+width: 466px;
+max-width: 100%;
+height: auto;
+}
+.name{
+font-family:'Times New Roman', Times, serif ;
+font-weight: bold;
+}
+
+.secondsection{
+    font-size: 30px;
+    max-width: auto;
+    margin: 25px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.asection{
+    max-width: auto;
+    margin: auto;
+    height: auto;
+    padding: 20px;
+}
+.csecondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection li{
+    margin: 10px;
+    font-style: italic;
+}
+
+main hr{
+    border: solid #7c7cb0 1px  2px;
+    margin: 10px;
+    
+}
+
+.rightsection1 img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#element{
+    margin-top: 10px;
+    margin: 0px;
+    font-size: 25px;
+    font-style: normal;
+}
+#celement{
+    margin-top: 50px;
+    font-size: 25px;
+    font-style: normal;
+    text-align: right;
+}
+
+.firstsection .leftsection div img{
+    width: 300px;
+    max-width: 400%;
+    padding: 30px;
+    height: auto;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 60px;
+}
+.cfirstsection div img{
+    width: 300px;
+    max-width: 100%;
+    padding: 30px;
+    height: auto;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 60px;
+}
+
+
+.leftsectionmp{
+    margin: 30px;
+    font-size: 30px
+}
+.leftsectionmp p{
+    margin: 10px;
+    font-size: 30px
+}
+.leftsectionmp h3{
+    margin: 5px;
+    font-size: 30px
+}
