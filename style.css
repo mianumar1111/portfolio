@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
     /* Your CSS styles for smaller screens here */
   }
   
@@ -22,7 +25,7 @@ nav{
     display:block;
     justify-content:flex-start;
     align-items: center;
-    height: 50px;
+    height: 30px;
     background-color: rgb(46, 46, 145);;
 }
 
@@ -33,20 +36,17 @@ nav{
 }
 nav ul{
     display: flex;
-    justify-content: center;
-
-}
-nav ul li{
+    justify-content: space-around;
     list-style: none;
-    margin: 23px;
 }
 nav ul li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 nav ul li a:hover{
     color: lavender;
-    padding: 5px;
+    padding: 10px;
 }
 .firstsection{
     display: flex;
