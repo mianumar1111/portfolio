@@ -1,9 +1,6 @@
 @media (max-width: 768px) {
-    nav ul {
-        display: none;
-    }
-    /* Your CSS styles for smaller screens here */
-  }
+
+ }
   
 * {
     margin: 0;
@@ -43,6 +40,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-size: 10px;
 }
 nav ul li a:hover{
     color: lavender;
