@@ -1,6 +1,11 @@
-@media (max-width: 768px) {
-
- }
+@media (max-width: 600px) {
+    .firstsection {
+        flex-direction: column;
+    }
+    .secondsection {
+        flex-direction: column;
+    }
+}
   
 * {
     margin: 0;
