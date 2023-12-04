@@ -11,19 +11,6 @@
     .secondsection {
         flex-direction: column;
     }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        padding:4px;
-        font-size: 13px;
-    }
-    #umab {
-        visibility: hidden;
-    }
-    #umc {
-        visibility: hidden;
-    }
-
 }
   
 * {
@@ -38,8 +25,9 @@
 }
 body {
     color: black;
-    background-color: #9f9fc5;
-    font-size: 16px
+    background-color: rgb(240, 240, 240);
+    font-size: 16px;
+    padding: 5px;
 }
 .bg-color{
     background-color: rgb(15, 15, 15);
@@ -64,8 +52,11 @@ nav{
     justify-content:flex-start;
     align-items: center;
     height: 30px;
-    border: 1px white solid;
+    border: 1px black solid;
     border-radius:60px;
+}
+.navB{
+    border: 1px white solid;
 }
 
 .left{
@@ -80,9 +71,15 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
+    color: black;
+    padding:4px;
+    font-size: 13px;
+}
+.nav2 ul li a{
+    text-decoration: none;
     color: white;
     padding:4px;
-    font-size: 15px;
+    font-size: 13px;
 }
 nav ul li a:hover{
     color: lavender;
@@ -107,7 +104,7 @@ nav ul li a:hover{
 
 .crightsection ul a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     margin: 10px;
 }
 .crightsection ul a:hover{
