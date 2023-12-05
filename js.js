@@ -13,9 +13,9 @@ themeimg.addEventListener('click',function(){
     
     toggle = !toggle
     if(toggle){
-        themeimg.src = 'day.png'   
+        themeimg.src = 'night.png'   
     }else{
-        themeimg.src='night.png'
+        themeimg.src='day.png'
     }
     // console.log(toggle)
 })
