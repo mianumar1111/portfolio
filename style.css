@@ -1,6 +1,9 @@
 @media  (max-width: 600px) {
-    .navA a{
-        font-size:12px;
+    nav ul li a{
+        text-decoration: none !important;
+        color: black !important;
+        padding:4px !important;
+        font-size: 12px !important;
     }
     .firstsection {
         flex-direction: column;
