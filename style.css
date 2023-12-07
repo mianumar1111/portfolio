@@ -68,7 +68,7 @@ nav{
     background-color: black;
     position: fixed;
     top: 33px;
-    left: 16px;
+    left: 0px;
     z-index: 999;
 }
 
