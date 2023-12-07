@@ -1,9 +1,6 @@
-@media (max-width: 600px) {
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        padding:4px;
-        font-size: 10px;
+@media  (max-width: 600px) {
+    .navA a{
+        font-size:12px;
     }
     .firstsection {
         flex-direction: column;
@@ -11,6 +8,7 @@
     .secondsection {
         flex-direction: column;
     }
+      
 }
   
 * {
@@ -54,6 +52,26 @@ nav{
     border: 1px black solid;
     border-radius:60px;
 }
+
+.progress-dark {
+    width: 0%;
+    height: 5px;
+    background-color: white;
+    position: fixed;
+    top: 33px;
+    left: 16px;
+    z-index: 999;
+}
+.progress {
+    width: 0%;
+    height: 5px;
+    background-color: black;
+    position: fixed;
+    top: 33px;
+    left: 16px;
+    z-index: 999;
+}
+
 .navB{
     border: 1px white solid;
 }
