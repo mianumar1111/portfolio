@@ -3,7 +3,8 @@ var navA=document.querySelectorAll('.left  li a')
 var nav=document.querySelector('nav')
 var themeimg = document.querySelector('#themeimg')
 var progress = document.querySelector('.progress')
-// console.log(themeimg)
+var pName = document.querySelector('#MyProjects a')
+console.log(pName)
 
 
 var toggle = true;
