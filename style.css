@@ -210,8 +210,7 @@ main hr{
     border-top-left-radius: 60px;
 }
 .cfirstsection div img{
-    width: 300px;
-    max-width: 100%;
+    width: 50%;
     padding: 30px;
     height: auto;
     border-top-right-radius: 50px;
@@ -295,11 +294,11 @@ h2{
     }
 
     .leftsection {
-        font-size: 50px;
+        font-size: 30px;
         font-style: italic;
       }      
       .firstsection div {
-        margin: 40px;
+        margin: 30px;
         width: 30%;
       }
       .crightsection .Contact {
@@ -308,4 +307,47 @@ h2{
         padding: 10px;
         width: 90%;
       }
+      #element{
+        margin-top: 10px;
+        margin: auto;
+        font-size: 15px;
+        font-style: normal;
+    }
+    .leftsectionE{
+        font-size: 16px;
+        max-width: auto;
+        margin: 25px;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #ins-name{
+        font-size:12px;
+        font-weight:bold;
+        margin-top: 10px;
+    }
+    .secondsection{
+        font-size: 16px;
+    }
+    #MyProjects a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 16px;
+    }
+    #MyProjects .pdetails{
+        font-size: 12px;
+    }
+    .cfirstsection .crightsection{
+        font-style: italic;
+        margin-top: px;
+        padding: 20px;
+    }
+    .cfirstsection div img{
+        width: 50%;
+        padding: 20px;
+        height: auto;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 60px;
+    }
 }
