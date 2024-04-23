@@ -39,6 +39,10 @@ nav{
     border: 1px black solid;
     border-radius:60px;
 }
+#MyProjects{
+    display: flex;
+    column-gap: 20%;
+}
 
 #MyProjects a{
     text-decoration: none;
@@ -121,7 +125,7 @@ nav ul li a:hover{
 .cfirstsection .crightsection{
     font-style: italic;
     margin-top: px;
-    padding: 100px;
+    padding: 30px;
 }
 
 .crightsection ul a{
@@ -279,6 +283,12 @@ h2{
 
 
 
+@media  (max-width: 750px) {
+    #MyProjects{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media  (max-width: 600px) {
     nav ul li a{
         text-decoration: none;
@@ -292,7 +302,6 @@ h2{
     .secondsection {
         flex-direction: column;
     }
-
     .leftsection {
         font-size: 30px;
         font-style: italic;
