@@ -39,6 +39,9 @@ nav{
     border: 1px black solid;
     border-radius:60px;
 }
+.innerLiReact{
+    margin-left: 50px;
+}
 #MyProjects{
     display: flex;
     column-gap: 20%;
@@ -187,8 +190,9 @@ main hr{
 
 .rightsection1 img{
     margin-top: 10px;
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
+    margin-left: 200px;
 }
 
 #element{
