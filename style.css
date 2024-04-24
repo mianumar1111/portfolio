@@ -194,6 +194,9 @@ main hr{
     height: auto;
     margin-left: 200px;
 }
+.outerUlLi{
+    font-weight: bold;
+}
 
 #element{
     margin-top: 10px;
